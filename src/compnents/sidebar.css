@@ -1,0 +1,84 @@
+.sidebar{
+  position: fixed;
+  width:15rem;
+  height:100%;
+  background-color: #000;
+}
+.brand{
+  color:rgb(224, 95, 124);
+  margin: 0 auto;
+  font-size: 1.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 0;
+  font-weight: 900;
+}
+.links>ul{
+  list-style: none;
+  margin: 0 auto;
+
+  margin-top: 1.5rem;
+}
+
+.links>ul>li>a{
+  text-decoration: none;
+  font-size:1.3rem ;
+  color: rgb(236, 174, 188);
+  line-height: 1.5;
+  
+}
+.active{
+ 
+  border-right: 5px solid rgb(224, 95, 124);
+}
+  .links>ul>.active>a{
+    color:rgb(224, 95, 124);
+    font-weight: bold;
+  }
+
+.pro{
+  background-color:rgb(224, 95, 124);
+margin-right: 20px;
+margin-left: 20px;
+position: relative;
+margin-top: 40px;
+border-radius: 18px;
+text-align: center;
+}
+.img{
+  width: 100px;
+  margin: 0 auto;
+
+}
+.img>img{
+  width: 100%;
+  height: 100%;
+}
+.pro>h3{
+  color: #fff;
+  text-align: center;
+margin-left: 30px;
+  position: absolute;
+  top: 60px;
+  left: 30px;
+}
+.pro>button{
+
+  cursor: pointer;
+  background-color: black;
+  border: 1px solidrgb(224, 95, 124);
+  color:rgb(224, 95, 124);
+  border-radius: 4px
+  ;
+
+  height: 30px;
+  width: 100px;
+  font-size: large;
+  margin-bottom: 3px;
+}
+.pro>button:hover{
+  background-color:rgb(224, 95, 124);
+  color: black;
+  border: 2px solid #000;
+}

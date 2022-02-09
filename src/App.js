@@ -1,8 +1,12 @@
 import React from 'react';
+import Dashboard from './compnents/Dashboard';
+import Sidebar from './compnents/Sidebar';
 function App() {
   return (
     <div className="App">
-      <h1>Hello CodeSandbox</h1>
+      <Sidebar />
+      <Dashboard />
+
     </div>
   );
 }
